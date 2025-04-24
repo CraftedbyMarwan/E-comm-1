@@ -1,0 +1,21 @@
+export const styles = {
+  footer: 'bg-black text-white pt-12 pb-6',
+  container: 'container mx-auto px-4',
+  grid: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8',
+  section: 'space-y-4',
+  heading: 'text-xl font-bold',
+  subHeading: 'text-lg font-semibold mb-4',
+  text: 'text-gray-400',
+  link: 'text-gray-400 hover:text-white transition',
+  list: 'space-y-2',
+  contactList: 'space-y-3',
+  listItem: 'flex items-start space-x-2',
+  newsletter: 'mb-8',
+  inputContainer: 'flex flex-col sm:flex-row gap-2 max-w-md',
+  input: 'px-4 py-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow',
+  button: 'bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded transition',
+  copyright: 'border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center',
+  copyrightText: 'text-gray-400 text-sm',
+  legalLinks: 'flex space-x-6 mt-4 md:mt-0',
+  legalLink: 'text-gray-400 hover:text-white text-sm transition'
+};
