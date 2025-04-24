@@ -1,5 +1,5 @@
 import {Route, Routes} from 'react-router'
-import Home from './Home'
+import LandingPage from './LandingPage';
 import P404 from './P404'
 import React from 'react'
 import Contact from './contact'
@@ -12,14 +12,15 @@ import Cart from './Cart'
 const Pages = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home/>} />
+      {/* Set LandingPage as the element for the home route */}
+      <Route path='/' element={<LandingPage/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/faq' element={<FAQ/>} />
       <Route path='/products' element={<Products/>} />
       <Route path='/products/:id' element={<ShowProduct />} />
       <Route path='/cart' element={<Cart />}/>
       <Route path='*' element={<P404/>} />
-      
+
     </Routes>
   )
 }
